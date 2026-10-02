@@ -7,7 +7,7 @@ import hospital.reception.Receptionist;
 
 public class Main{
     public static void main() {
-        Patient p1 = new Patient("Sarah Nakato", "2026-10-15", "Malaria");
+        Patient p1 = new Patient("Sarah Nakato", "2026-10-15", "Malaria", "p014");
         Doctor doctor = new Doctor("Dr. Okello", "D001");
         Receptionist receptionist = new Receptionist("Grace", "R001");
         Administration admin = new Administration("Sarah Nakato", 150000);
