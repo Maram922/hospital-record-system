@@ -2,6 +2,7 @@ package hospital.medical;
 
 public class Patient {
     private String patientName;
+    private String patientId;
     private String appointmentDate;
     private String diagnosis;
 
