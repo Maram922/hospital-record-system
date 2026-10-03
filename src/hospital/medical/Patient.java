@@ -21,6 +21,10 @@ public class Patient {
         return appointmentDate;
     }
 
+    public String getRoomNumber() {
+        return roomNumber;
+    }
+
     String getDiagnosis() {
         return diagnosis;
     }
