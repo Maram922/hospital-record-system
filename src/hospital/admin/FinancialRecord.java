@@ -23,4 +23,8 @@ public class FinancialRecord {
         return "Patient: " + patientName + " | Amount billed: " + amountBilled;
     }
 
+    public double calculateTax() {
+        return amountBilled * (taxRate / 100);
+    }
+
 }
