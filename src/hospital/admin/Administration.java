@@ -12,4 +12,8 @@ public class Administration {
     public String viewFinancialSummary() {
         return record.getSummary();
     }
+
+    public String getOperatingHours() {
+        return operatingHours;
+    }
 }
