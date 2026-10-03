@@ -5,6 +5,8 @@ public class Patient {
     private String appointmentDate;
     private String diagnosis;
 
+    private String roomNumber = "Room 101";
+
     public Patient(String patientName, String appointmentDate, String diagnosis) {
         this.patientName = patientName;
         this.appointmentDate = appointmentDate;
