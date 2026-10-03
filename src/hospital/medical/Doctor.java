@@ -14,6 +14,10 @@ public class Doctor extends Staff {
         this.shift = shift;
     }
 
+    public String getShift() {
+        return shift;
+    }
+
     public String viewDiagnosis(Patient patient) {
         return patient.getDiagnosis();
     }

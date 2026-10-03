@@ -14,6 +14,8 @@ public class Main{
 
         System.out.println("--- Doctor ---");
         System.out.println(doctor.getDoctorDetails());
+        doctor.setShift("Morning");
+        System.out.println("Shift: " + doctor.getShift());
         System.out.println("Diagnosis: " + doctor.viewDiagnosis(p1));
         doctor.updateDiagnosis(p1, "Typhoid");
         System.out.println("Updated diagnosis: " + doctor.viewDiagnosis(p1));
